@@ -1,0 +1,146 @@
+html{
+    scroll-behavior: smooth;
+}
+body {margin: 0;
+    zoom: 0.75;
+
+}
+
+
+ h1{
+     margin-top: -50px;
+     color: black;
+     text-align: center;
+ }
+ .listbib{
+     list-style-type: none;
+     padding-left: 0;
+ }
+ .listbib a{
+     text-decoration: none;
+ }
+ #spisok :hover:not(h2){
+     background: none;
+     color: #F5D7BF;
+ }
+ .bibliography{
+
+     font-size: x-large;
+     padding-left: 200px;
+
+ }
+ #content{
+
+ }
+ .firstlevel{
+
+     display: flex;
+     justify-content: center;
+ }
+ .secondlevel{
+
+     display: flex;
+     justify-content: space-around;
+     font-size: x-large;
+ }
+ .thirdlevel{
+     display: flex;
+     justify-content: center;
+ }
+ .lefttext{
+     text-align: justify;
+     width: 460px;
+     float: left;
+    margin-left: 15px;
+     /*margin-top: 80px;*/
+ }
+ .righttext{
+     text-align: justify;
+     width: 460px;
+     margin-left: 510px;
+     /*margin-top: 100px;*/
+ }
+ h3{
+     margin: 0 auto;
+     text-align: center;
+ }
+ p:first-letter{
+    font-size:50px ;
+     color: deeppink;
+ }
+
+#numbertable{
+    width: 2px;
+    text-align:center;
+}
+#date{
+    text-align: center;
+}
+caption{
+    font-size: large;
+}
+table{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    width: 960px;
+    border-spacing: 5px;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+}
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+td {
+    background: #F5D7BF;
+    padding: 10px;
+}
+#photo{
+    width: 400px;
+    height: 400px;
+}
+.signature{
+    text-align: center;
+    font-size: large;
+}
+
+
+ @media (max-width: 768px) {
+     .firstlevel{
+
+         display: block;
+         justify-content: center;
+     }
+    .photo{
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+     .bibliography{
+         padding-left: 0px;
+         margin:auto;
+     }
+     .lefttext{
+         float: none;
+         margin:auto;
+     }
+     .righttext{
+         float: none;
+         margin:auto;
+     }
+     .bibliography{
+         margin: auto;
+         display: flex;
+         justify-content: center;
+     }
+    .signature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     table {
+         width: 100%;
+     }
+ }

@@ -1,0 +1,110 @@
+#wrapper{
+    display: block;
+    width: 890px;
+    height: auto;
+    background: whitesmoke;
+    margin: auto;
+    font-size: x-large;
+    border-radius: 15px;
+    border: 2px solid;
+    padding-bottom: 50px;
+    padding: 40px;
+    /*font-size: x-large;*/
+}
+#title{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+#input{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    margin-top: 2%;
+}
+input[type="submit"]{
+    background: #ff8786;
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: x-large;
+}
+input[type="text"]{
+    width: 890px;
+    height: 50px;
+    margin: 20px 0;
+    font-size: x-large;
+}
+span{
+    /*margin-left: 20px;*/
+}
+#checkbox{
+    margin-top: 20px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+.output{
+    margin-top: 2%;
+}
+
+table{
+    margin: auto;
+    width: 60%;
+}
+td:first-child {
+    background: #AFCDE7;
+    color: white;
+    text-align: center;
+}
+th{
+    background: #AFCDE7;
+    color: white;
+}
+td {
+    background: #D8E6F3;
+}
+#errors{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+#array{
+    margin-top: 20px;
+}
+#result{
+    width: 216px;
+    margin: auto;
+    margin-top: 20px;
+}
+textarea{
+    width: 500px;
+    height: 300px;
+    font-size: xx-large;
+}
+#stat{
+    display: inline-block;
+    transform: scale(1.8);
+    margin-left: 25px;
+}
+#resultString{
+    color: red;
+}
+#errorsString{
+    color: red;
+}
+
+@media (max-width: 768px) {
+    #wrapper{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+    #properties{
+        width: 100%;
+    }
+    input[type="text"]{
+        width:  100%;
+    }
+}

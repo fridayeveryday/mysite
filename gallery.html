@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Галерея</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/styles/styleGallery.css">
+    <link rel="stylesheet" href="/styles/menu.css">
+
+  </head>
+
+  <body>
+    <div id="logo">
+        <a href="index.html"></a>
+    </div>
+
+          <nav>
+              <input type="checkbox" id="menuCheck"><label for="menuCheck">
+              <div id="picopmenu">Меню
+              </div></label>
+              <ul class="menu">
+                  <li><a href="index.html">Главная</a></li>
+                  <li id="active"><a href="gallery.html">Галерея</a></li>
+                  <li><a href="discreteMathematics.html">Дискретная математика</a></li>
+                  <li><a href="Game.html">Игра</a></li>
+                  <li><a href="authorization.html">Авторизация</a></li>
+              </ul>
+            </nav>
+            <div class="galleryWrapper">
+                <div id="gallery">
+
+
+                    <div class="leftArrow">  <a id="botPrev" class="BP" onclick="prev()">&#10094; </a></div>
+
+                    <div id="divImg">
+                        <img id="slider" class="Img" src="images/gallery/img1.jpg" alt="">
+                    </div>
+
+                    <div class="rightArrow"> <a id="botNext" class="BN" onclick="next()">&#10095; </a> </div>
+
+                </div>
+                <div id="listPictures">
+                    <div class="divMini" id="num" onclick="openPictureMini(1)"><img class="mini" id="p1" src="images/gallery/img1.jpg"></div>
+                    <div class="divMini" id="num" onclick="openPictureMini(2)"><img class="mini" id="p2" src="images/gallery/img2.jpg"></div>
+                    <div class="divMini" id="num" onclick="openPictureMini(3)"><img class="mini" id="p3" src="images/gallery/img3.jpg"></div>
+                    <div class="divMini" id="num" onclick="openPictureMini(4)"><img class="mini" id="p4" src="images/gallery/img4.jpg"></div>
+                    <div class="divMini" id="num" onclick="openPictureMini(5)"><img class="mini" id="p5" src="images/gallery/img5.jpg"></div>
+                </div>
+                <div id="index">1/5</div>
+            </div>
+
+
+            <footer>
+              <h4>Связаться со мною по e-mail:  <br> 123@mailololol.com</h4>
+            </footer>
+<script src="scripts/gallery2.js"></script>
+  </body>
+</html>

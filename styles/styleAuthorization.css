@@ -1,0 +1,42 @@
+#authorization{
+    display: flex;
+    justify-content: center;
+    margin: 250px auto;
+    font-size: xx-large;
+}
+input[type="text"] , input[type="password"]{
+   /* opacity: 0;
+    transform: translateY(1rem);*/
+    width: 80%;
+    height: 50px;
+    margin: 20px;
+    font-size: x-large;
+}
+#button{
+    text-align: center;
+
+}
+input[type="submit"]{
+    background: #ff8786;
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: x-large;
+}
+#reg{
+    text-align: center;
+}
+form{
+    background: black;
+    border-radius: 9px;
+    padding: 15px;
+    width: 552px;
+}
+
+#titleenter{
+    color: #ECE9E0;
+    padding-left: 20px;
+}
+div{
+     margin: auto;
+ }

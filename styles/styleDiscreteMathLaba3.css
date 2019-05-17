@@ -1,0 +1,92 @@
+#wrapper{
+    display: block;
+    width: 930px;
+    height: auto;
+    background: whitesmoke;
+    margin: auto;
+    font-size: xx-large;
+    border-radius: 15px;
+    border: 2px solid;
+    padding-bottom: 50px;
+}
+#input{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+input[type="submit"]{
+    background: #ff8786;
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: x-large;
+}
+input[type="text"]{
+    width: 590px;
+    height: 50px;
+    margin: 20px 0;
+    font-size: x-large;
+}
+span{
+    color: red;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+.output{
+    margin-top: 2%;
+}
+
+table{
+    margin: auto;
+    width: 60%;
+}
+td:first-child {
+    background: #AFCDE7;
+    color: white;
+    text-align: center;
+}
+th{
+    background: #AFCDE7;
+    color: white;
+}
+td {
+    background: #D8E6F3;
+}
+#errors{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+#array{
+    margin-top: 20px;
+}
+#result{
+    width: 216px;
+    margin: auto;
+    margin-top: 20px;
+}
+#descriptions{
+    width: 590px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#title{
+    text-align: center;
+    color: black;
+}
+@media (max-width: 768px) {
+    #wrapper{
+        width: 100%;
+    }
+    table{
+        width: 100%;
+    }
+    #properties{
+        width: 100%;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+}

@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+body {margin: 0;
+    zoom: 0.75;
+     background: url("../images/fon3.jpg") no-repeat fixed center;
+    /*background: whitesmoke;*/
+
+}
+
+div#logo{
+    margin: auto;
+    height: 250px;
+    width: 100%;
+    background: black url('../images/logo.gif') no-repeat scroll top;
+}
+#showmenu{
+    display: none;
+    height: 100px;
+    width: 100px;
+    background: fuchsia;
+}
+.menu li {
+    font-size: x-large;
+    border: 2px grey solid;
+    margin: 50px 5px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+.menu{
+    list-style-type: none;
+    background: black;
+    padding-left: 0;
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+}
+.menu a {
+    width: 180px;
+    height: 80px;
+    color: #ff8786;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li:hover{
+    background:#4397CC;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+@keyframes background {
+    50% {
+        background: skyblue;
+        box-shadow: 0 -200px 100px -100px #eeedf6 inset;
+
+    }
+}
+#active{
+    animation: background 4s infinite alternate;
+    box-shadow: 0 -200px 100px -120px black inset;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+input[type=checkbox] , label{
+    display: none;
+}
+@media (max-width: 768px) {
+    div#logo{
+        margin: auto;
+        height: 250px;
+        width: 100%;
+        background: black url('../images/logo.gif') no-repeat scroll top;
+    }
+     label{
+        display: block;
+         width: 100%;
+         background: #8bff8f;
+         height: 50px;
+         margin-bottom: 50px;
+    }
+     #picopmenu{
+         cursor: pointer;
+         height: 65px;
+         font-size: xx-large;
+         text-align: center;
+         color: white;
+         background: black;
+         border: solid 5px grey;
+         border-radius: 0px;
+     }
+    /*#menu{
+        display: none;
+    }*/
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+        padding-bottom: 20px;
+        margin-top: -25px;
+        padding-top: 20px;
+    }
+    .menu{
+        background: black;
+        display: none;
+    }
+    .menu a {
+        margin: auto;
+        width: 100%;
+        color: #ff8786;
+       /* background: #87D1FF;*/
+    }
+    #showmenu{
+        display: block;
+    }
+    #op{
+         width: 100px;
+         height: 50px;
+        display: block;
+     }
+}

@@ -1,0 +1,31 @@
+li{
+    list-style-type: none;
+    border: 2px grey solid;
+    border-radius: 15px;
+    margin-top: 20px ;
+}
+#DM{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    background: whitesmoke;
+    margin: auto;
+    border-radius: 15px;
+}
+ul{
+    text-align: center;
+    padding: 0;
+}
+#works{
+    display: block;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    height: 40px;
+    width: 482px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
