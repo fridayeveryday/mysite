@@ -1,13 +1,13 @@
 #authorization{
     display: flex;
     justify-content: center;
-    margin: 250px auto;
+    margin: 20px auto;
     font-size: xx-large;
 }
 input[type="text"] , input[type="password"]{
    /* opacity: 0;
     transform: translateY(1rem);*/
-    width: 80%;
+    width: 92%;
     height: 50px;
     margin: 20px;
     font-size: x-large;
@@ -40,3 +40,61 @@ form{
 div{
      margin: auto;
  }
+#successfulLog{
+    width: 970px;
+    height: 800px;
+    margin: auto;
+    background: #f2fff0;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 970px;
+    position: relative;
+}
+#game, #gallery{
+    width:100px;
+    height: 50px;
+}
+#errors_log, #errors_pass{
+    color: red;
+    padding-left: 20px;
+    font-size: x-large;
+
+}
+span{
+    color: red;
+}
+#reg{
+    width: 272px;
+    height: 44px;
+    background: #ff8786;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+#regLink {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 276px;
+    height: 50px;
+}
+#gratTitle{
+    font-size: 50px;
+}
+#point{
+    width: 272px;
+    height: 44px;
+    background: #ff8786;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 276px;
+    height: 50px;
+}
+#mainText{
+    width: 500px;
+}

@@ -22,8 +22,8 @@
                   <li><a href="index.html">Главная</a></li>
                   <li><a href="gallery.html">Галерея</a></li>
                   <li id="active"><a href="discreteMathematics.html">Дискретная математика</a></li>
-                  <li><a href="Game.html">Игра</a></li>
-                  <li><a href="authorization.html">Авторизация</a></li>
+                  <li><a href="Game.php">Игра</a></li>
+                  <li><a href="authorization.php">Авторизация</a></li>
               </ul>
             </nav>
     <?php

@@ -61,6 +61,7 @@
 }
 .turnRight1{
     animation: 1s animationTurnRight1;
+
 }
 @keyframes animationTurnRight1 {
     0%{
@@ -376,10 +377,10 @@
 .zoomOutDown {
     -webkit-animation-name: zoomOutDown;
     animation-name: zoomOutDown;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 1000ms;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+    animation-fill-mode: none;
 }
 @-webkit-keyframes zoomOutDown {
     40% {

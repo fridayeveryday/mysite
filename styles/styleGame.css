@@ -1,8 +1,145 @@
 #game{
-    width: 800px;
-    height: 800px;
-    background: #8bff8f;
-    font-size:xx-large;
+    width: 940px;
+    height: 940px;
+    background: #AFCDE7;
+    font-size: 45px;
+    border-radius: 20px;
     margin: auto;
     text-align: center;
+}
+#divMainWord{
+    padding: 50px;
+}
+#mainWord{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 300px;
+    height: 100px;
+    background: #fffefa;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-top: 50px; */
+    margin: 0 auto;
+    margin-top: 20px
+ }
+#chooseWords{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+#firstChooseWord, #secondChooseWord, #thirdChooseWord {
+    height: 50px;
+    width: 200px;
+    background: #F5D7BF;
+    margin: 0 20px;
+    cursor: pointer;
+    user-select: none;
+}
+#score{
+    height: 100px;
+    margin-bottom: 40px;
+    width: 200px;
+    margin: auto;
+}
+.line{
+    background: red;
+    height: 10px;
+    /*width: 0px;*/
+}
+#rule{
+    font-size: xx-large;
+    width: 500px;
+    margin: auto;
+}
+p{
+    font-size: 40px;
+}
+#beginGame{
+    background: #ff8786;
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+#oldScore{
+    width: 100px;
+    height: 100px;
+    background: #D8E6F3;
+    font-size: xx-large;
+}
+#link{
+    display: block;
+    height: 50px;
+    width: 470px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+#flag{
+    display: none;
+}
+#totalScore{
+    float: left;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 25px;
+    width: 180px;
+    margin-left: -50px;
+}
+input[type="text"]{
+    font-size: x-large;
+    width: 35px;
+}
+#gratulations{
+    font-size: 40px;
+    padding-top: 50px;
+
+}
+#goHome{
+    height: 50px;
+    width: 400px;
+    background: #ff8786;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 0;
+    padding: 0;
+    border-radius: 15px;
+}
+#wrapperGoHome{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#toHome{
+    height: 50px;
+    width: 400px;
+    display: block;
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+    #game {
+        width: 100%;
+    }
+    #link{
+        width: 100%;
+    }
+    #totalScore{
+        width: 10%;
+        padding-left: 10px;
+    }
+    #mainWord{
+        width: 30%;
+        font-size: 8vw;
+    }
+    #chooseWords{
+        width: 100%;
+        font-size: 8vw;
+    }
 }

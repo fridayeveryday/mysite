@@ -23,8 +23,8 @@
                   <li><a href="index.html">Главная</a></li>
                   <li><a href="gallery.html">Галерея</a></li>
                   <li id="active"><a href="discreteMathematics.html">Дискретная математика</a></li>
-                  <li><a href="Game.html">Игра</a></li>
-                  <li><a href="authorization.html">Авторизация</a></li>
+                  <li><a href="Game.php">Игра</a></li>
+                  <li><a href="authorization.php">Авторизация</a></li>
               </ul>
             </nav>
     <?php
@@ -71,7 +71,7 @@
                 for($j= 0; $j < count($array); $j++){
                     if ($array[$i][$k] && $array[$k][$j] && $i!=$j) {
                         if (($array[$i][$k] + $array[$k][$j] < $array[$i][$j]) || $array[$i][$j] == 0) {
-                            $array[$i][$j] = $array[$i][$k] + $array[$k][$j];
+                            $array[$i][$j] = 1;
                         }
                     }
                 }

@@ -5,8 +5,6 @@ body {margin: 0;
     zoom: 0.75;
 
 }
-
-
  h1{
      margin-top: -50px;
      color: black;
@@ -21,7 +19,7 @@ body {margin: 0;
  }
  #spisok :hover:not(h2){
      background: none;
-     color: #F5D7BF;
+     color: #f55e28;
  }
  .bibliography{
 
